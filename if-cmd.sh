@@ -2,7 +2,7 @@
 # demo on finding a command status using functions
 
 myfistfun () {
-    ls -l ~/Desktop/work/Scripts/ >> test.txt
+    ls -l ~/Desktop/work/Scripts/ > test.txt
     return $?
 }
 myfistfun
